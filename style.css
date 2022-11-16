@@ -1,0 +1,166 @@
+:root{
+    --primary-color: #b00002;
+    --secondary-color: #ffa628;
+    --tertiary-color:#232323;
+}
+
+.primary-text-color{
+    color:rgb(174, 4, 5);
+}
+
+.primary-bg-color{
+    background:rgb(174, 4, 5);
+}
+
+.primary-border-color{
+    border-color:rgb(174, 4, 5);
+}
+
+.secondary-text-color{
+    color: rgb(255, 166, 40);
+}
+
+.secondary-bg-color{
+    background: rgb(255, 166, 40);
+}
+
+.secondary-border-color{
+    border-color: rgb(255, 166, 40);
+}
+
+.tertiary-text-color{
+    color:#232323;
+}
+
+.tertiary-bg-color{
+    background:#232323;
+}
+
+.tertiary-border-color{
+    border-color:#232323;
+}
+
+.navbar-toggler-icon{
+    color: white;
+}
+
+.main-slider:hover{
+    transform: translateX(-5px);
+    transition: all .2s ease-in;
+}
+
+.menu-cart{
+    background: #751d132c;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* box-shadow: 0px 2px 5px #2323232d; */
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.btn{
+    transition: all .2s ease-in;
+}
+
+.menu-btn{
+    border: 0;
+}
+
+.menu-btn:hover{
+    background: rgb(255, 166, 40);
+    color: white;    
+    border: 0;
+    transition: all .2s ease-in;
+}
+
+.menu-cart:hover{
+    background: #23232328;
+}
+
+body{
+    font-family: 'Raleway-regular', sans-serif;
+    background-image: radial-gradient(#d81f35, #751d13);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: unset;
+}
+
+.nav-link {
+    color: rgb(255, 255, 255);
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: rgb(255 255 255);
+    transform: translateY(-2px);
+    transition: all .1s ease-in;
+}
+
+.categories-bg{
+    background: #751d133a;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: all .2s ease-in;
+}
+
+.categories-bg:hover{
+    background: rgba(255, 165, 40, 0.671);
+}
+
+.product-bg{
+    background: #751d1352;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 2px 2px 15px #2323234d;
+}
+
+.product{
+    position: relative;
+}
+
+.product-btn{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: rgb(255, 166, 40);
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 15px;
+    color: white;
+}
+
+.product-btn:hover{
+    background: rgb(255, 255, 255);
+    color: rgb(255, 166, 40);
+    border: 1px solid transparent;
+}
+
+.about-img:hover{
+    transform: translateX(3px);
+    transition: all .2s ease-in;
+}
+
+.email-subs{
+    background: white;
+    outline: none;
+    border: none;
+    padding: .558rem;
+    width: 70%;
+}
+
+.email-btn{
+    margin-left: -.28rem;
+    margin-top: -.1rem;
+}
+
+.sub-text{
+    font-size: .9rem;
+}
+
+@media screen and (max-width:768px) {
+    .email-subs{
+        width: 50%;
+    }
+}
